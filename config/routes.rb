@@ -1,4 +1,4 @@
-Dummy::Application.routes.draw do
+TwitterTest::Application.routes.draw do
 
   ActiveAdmin.routes(self)
 
