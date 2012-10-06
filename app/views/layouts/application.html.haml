@@ -6,4 +6,5 @@
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body
+    = user_signed_in? ? raw("#{current_user.email} #{link_to 'sign out', destroy_user_session_path, method: :delete}") : link_to('sign in', new_user_session_path)
     = yield

@@ -2,7 +2,7 @@ TwitterTest::Application.routes.draw do
 
   ActiveAdmin.routes(self)
 
-  devise_for :users, ActiveAdmin::Devise.config
+  devise_for :users, controllers: {omniauth_callbacks: "omniauth_callbacks"}#ActiveAdmin::Devise.config
 
   root :to => 'home#index'
 

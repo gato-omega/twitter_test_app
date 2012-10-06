@@ -57,6 +57,8 @@ gem "awesome_print", :group => [:development, :test]
 gem 'factory_girl_rails', :group => [:development, :test]
 gem 'faker', :group => [:development, :test]
 
+gem 'omniauth-twitter'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
