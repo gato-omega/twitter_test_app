@@ -28,6 +28,7 @@ public/spree
 /public/system*
 .idea/
 public/uploads
+public/assets
 .sass-cache/
 .bundle/
 .jhw-cache/

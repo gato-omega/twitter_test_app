@@ -67,6 +67,7 @@ gem 'omniauth-twitter'
 
 # Use unicorn as the app server
 gem 'unicorn'
+gem 'passenger'
 
 # Deploy with Capistrano
 # gem 'capistrano'
